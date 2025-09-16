@@ -3,7 +3,7 @@
 <img width="1012" height="530" alt="huddlelandingpage" src="https://github.com/user-attachments/assets/b7848e99-e702-4f1e-a2b9-4787db4210d1" /> <br>
 Este é um projeto de landing page responsiva, desenvolvido como uma solução para o desafio "Huddle Landing Page With A Single Introductory Section" da plataforma [Frontend Mentor](https://www.frontendmentor.io). O objetivo principal era replicar o design fornecido, garantindo que a página se adaptasse perfeitamente a diferentes tamanhos de tela.
 
-### ✨ [Acesse a demonstração ao vivo do projeto aqui!](https://SuellenMMarques.github.io/HuddleLandingPage/)
+### ✨ [Acesse a demonstração ao vivo do projeto aqui!](https://suellenmmarques.github.io/HuddleLandingPage/)
 
 ---
 
@@ -53,7 +53,7 @@ Para visualizar o projeto localmente, siga os passos abaixo:
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/SuellenMMarques/HunddleLandingPage.git](https://github.com/SuellenMMarques/HunddleLandingPage.git)
+git clone (https://github.com/SuellenMMarques/HuddleLandingPage.git)
 
 # 2. Navegue até a pasta do projeto
 cd HunddleLandingPage
