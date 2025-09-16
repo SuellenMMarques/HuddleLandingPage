@@ -67,4 +67,4 @@ cd HunddleLandingPage
 **Suellen Santos**
 
 * GitHub: [@SuellenMMarques](https://github.com/SuellenMMarques)
-* Frontend Mentor: [@SuellenMMarques](https://www.frontendmentor.io/profile/SuellenMMarques) ---
+* Frontend Mentor: [@SuellenMMarques](https://www.frontendmentor.io/profile/SuellenMMarques)
