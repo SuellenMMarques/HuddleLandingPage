@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #684BB1;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    align-self: stretch;
+    width: 520px;
+    height: 100px;
+}
+
+.text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #fff;
+    align-self: stretch;
+    width: 520px;
+    height: 81px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+button {
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: #684BB1;
+    cursor: pointer;
+}
+
+.socialmedia svg {
+    fill: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 16px;
+}
+
+footer {
+    background-color: #FF52C1;
+    margin-top: 15px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+@media screen and (max-width: 375.2px) {
+
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: scroll;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin-top: 40px;
+    }
+
+    header {
+        width: 120px;
+        height: 19px;
+        margin-bottom: 64px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section {
+        text-align: center;
+    }
+
+    main section img {
+        width: 80%;
+        text-align: center;
+    }
+
+    h1 {
+        width: 304px;
+        height: 60px;
+        font-size: 24px;
+        margin-top: 56px;
+    }
+
+    .text {
+        width: 304px;
+        height: 120px;
+        font-size: 16px;
+
+    }
+
+    button {
+        height: 40px;
+        border-radius: 20px;
+        box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.27);
+        font-size: 12px;
+    }
+
+    .socialmedia {
+        margin-top: 62px;
+    }
+
+    .socialmedia svg {
+        width: 27px;
+        height: 28px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 800px) {
+
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: scroll;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin-top: 40px;
+    }
+
+    header {
+        width: 120px;
+        height: 19px;
+        margin-bottom: 64px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section {
+        text-align: center;
+    }
+
+    main section img {
+        width: 80%;
+        text-align: center;
+    }
+
+    h1 {
+        width: 95%;
+        height: 95%;
+        font-size: 40px;
+        margin: 56px auto 0;
+    }
+
+    .text {
+        width: 95%;
+        height: 95%;
+        margin: 24px auto 40px;
+    }
+
+    .socialmedia {
+        margin: 62px auto 0;
+    }
+
+    .socialmedia svg {
+        width: 27px;
+        height: 28px;
+    }
+
+    .attribution {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin-top: 64px;
+    }
+
+    header {
+        width: 200px;
+        height: 32px;
+        margin-bottom: 64px;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    main {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .conteinerimage {
+        width: 60%;
+    }
+
+    .conteinerimage img {
+        width: 95%;
+    }
+
+    .conteinertext {
+        width: 40%;
+    }
+
+    h1 {
+        width: 90%;
+        max-width: 520px;
+        max-height: 100px;
+        font-size: 1.8em;
+    }
+
+    .text {
+        width: 90%;
+        max-width: 520px;
+        max-height: 81px;
+        font-size: .9em;
+    }
+
+    button {
+        height: 3.5em;
+        max-height: 56px;
+        font-size: 18px;
+    }
+
+    button:active {
+        background-color: #E880E8;
+        color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .socialmedia {
+        width: 95%;
+        margin-top: 24px;
+        text-align: right;
+    }
+
+    .socialmedia svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialmedia svg:active {
+        fill: #E880E8;
+        border: 1px solid #E880E8;
+        transition: all 0.3s ease;
+    }
+
+    .attribution {
+        font-size: 18px;
+    }
+}
